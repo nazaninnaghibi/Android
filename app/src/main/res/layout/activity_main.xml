@@ -13,14 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter your name: "
+        android:layout_marginTop="30dp"
         android:textColor="#000"
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="144dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/name_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:background="#fccc"
         tools:layout_editor_absoluteX="191dp"
         tools:layout_editor_absoluteY="567dp" />
@@ -30,14 +31,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter your last name : "
+        android:paddingTop="10dp"
         android:textColor="#000"
         tools:layout_editor_absoluteX="270dp"
         tools:layout_editor_absoluteY="186dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/last_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
@@ -50,13 +52,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter your email: "
+        android:paddingTop="10dp"
         android:textColor="#000"
         tools:layout_editor_absoluteY="244dp" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/email_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
         android:background="#fccc"
@@ -67,31 +70,26 @@
         android:id="@+id/phone_form"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:text="Enter your phone number: "
         android:textColor="#000"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="300dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/phone_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:background="#fccc"
         android:inputType="number"
         tools:layout_editor_absoluteX="183dp"
         tools:layout_editor_absoluteY="295dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cancel"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="490dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:id="@+id/save_main"
+        android:layout_marginTop="80dp"
+        android:layout_width="80dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Save"
         tools:layout_editor_absoluteX="96dp"

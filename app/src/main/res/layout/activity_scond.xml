@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/image_second"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"/>
+    <EditText
+        android:id="@+id/name_country"
+        android:layout_width="300dp"
+        android:layout_marginTop="70dp"
+         android:layout_marginLeft="50dp"
+        android:layout_height="70dp"
+        android:paddingLeft="20dp"
+        android:background="#DAD5D5"
+        android:hint="Enter the name of your country:" />
+    <Button
+        android:id="@+id/save_second"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Save"  />
+
+
+
+</LinearLayout>

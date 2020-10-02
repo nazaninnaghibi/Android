@@ -31,3 +31,18 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 }
+
+//implementation "com.orhanobut:hawk:2.0.1"
+////implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//
+//buildscript {
+//    repositories {
+//        // You need to add the following repository to download the
+//        // new plugin.
+//        google()
+//    }
+//
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:3.0.0-beta1'
+//    }
+//}
